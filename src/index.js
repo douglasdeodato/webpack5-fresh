@@ -1,5 +1,4 @@
 import Heading from './components/heading/heading.js';
-import React from 'react';
 
 
 if (process.env.NODE_ENV === 'production'){

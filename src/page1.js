@@ -1,6 +1,5 @@
 import Heading from './components/heading/heading.js';
 import HelloWorldButton from './components/page1/page1.js';
-import React from 'react';
 
 
 if (process.env.NODE_ENV === 'production'){
