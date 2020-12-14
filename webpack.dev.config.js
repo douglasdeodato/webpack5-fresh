@@ -5,7 +5,8 @@ const HtmlWebpackPlugin = require ('html-webpack-plugin');
 module.exports = {
     entry: {
         'page1': './src/page1.js',
-        'page2': './src/page2.js'
+        'page2': './src/page2.js',
+        'index': './src/index.js'
     },
     output: {
         filename: '[name].bundle.js',
@@ -74,6 +75,13 @@ module.exports = {
             title: 'page2',
             template: 'src/index.hbs',
             description: 'page 2 desc'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'index.html',
+            chunks: ['index'],
+            title: 'index',
+            template: 'src/index.hbs',
+            description: 'index desc'
         })
     ]
 }
