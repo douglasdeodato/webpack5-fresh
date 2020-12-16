@@ -1,4 +1,6 @@
 import Heading from './components/heading/heading.js';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 if (process.env.NODE_ENV === 'production'){
