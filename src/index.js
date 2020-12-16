@@ -2,10 +2,10 @@ import Heading from './components/heading/heading.js';
 
 
 if (process.env.NODE_ENV === 'production'){
-    console.log('production mode');
+    console.log('production mode ');
 } else if (process.env.NODE_ENV === 'development'){
     console.log('development mode');
 }
 
 const heading = new Heading();
-heading.render('hello world button');
+heading.render('index');
