@@ -18,3 +18,4 @@ if (process.env.NODE_ENV === 'production'){
 
 const heading = new Heading();
 heading.render('index');
+
